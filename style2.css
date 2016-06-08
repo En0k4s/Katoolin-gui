@@ -1,0 +1,88 @@
+QWidget{
+  background:black;
+  color:white;
+}
+QFrame{
+  border:1px solid green;
+}
+QLabel{
+  text-align:center;
+  color:red;
+  font-size:35px;
+  border:none;
+  font-family:FreeMono;
+}
+QPushButton{
+  border:1px solid green;
+  height:70px;
+  color:green;
+  width:100px;
+}
+QPushButton::hover{
+  border:1px solid red;
+  height:70px;
+  font-weight:bold;
+  color:red;
+  width:200px;
+}
+QTextEdit{
+  border:1px dotted white;
+}
+QCheckBox{
+  height:20px;
+  color:gray;
+  border:1px solid blue;
+  border-radius:10px;
+  
+}
+QCheckbox::indicator{
+  background:red;
+  border:1px solid red;
+}
+QCheckBox::indicator:checked{
+  
+  color:red;
+  
+}
+QCheckBox::indicator:unchecked{
+  border:2px solid green;
+  color:red;
+  
+}
+QCheckBox:checked{
+  color:red;
+}
+QComboBox{
+  border:2px solid green;
+  border-radius:6px;
+  color:gray;
+}
+QComboBox:editable{
+  color:red;
+}
+QScrollBar:left-arrow:horizontal,QScrollBar:right-arrow:horizontal,QScrollBar:up-arrow:vertical,QScrollBar:down-arrow:vertical{
+  background:green;
+  border-radius:10px;
+  border:2px solid green;
+}
+QScrollBar:horizontal{
+  background:green;
+  border:2px solid green;
+}
+QScrollBar::sub-page:vertical{
+  background:maroon;
+}
+QScrollBar::down-line:vertical{
+  background:red;
+  border:2px solid green;
+}
+QScrollBar:vertical{
+  background:green;
+  border:2px solid green;
+}
+QScrollArea{
+  border:2px solid green;
+}
+QMessageBox{
+  font-size:34px;
+}
